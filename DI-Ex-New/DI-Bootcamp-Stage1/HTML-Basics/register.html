@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+
+   <form method="POST">
+  
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+ 
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" minlength="5" required><br><br>
+    
+    <label for="Birthday">Birthday:</label><br>
+    <input type="date" id="birthday" name="birthday"><br><br>
+
+    <label for="Gender:">Gender:</label><br>
+    <input type="radio" id="gender" name="gender" value="Female">Female<br>
+    <input type="radio" id="gender" name="gender" value="Other">Other<br>
+    <input type="radio" id="gender" name="gender" value="Bingus">Bingus<br>
+    <input type="radio" id="gender" name="gender" value="Ooiiaeeooiiai">Ooiiaeeooiiai<br><br>
+
+    <label for="Pets">Pets:</label><br>
+    <input type="checkbox" id="pets" name="pets" value="Hyrax">Hyrax<br>
+    <input type="checkbox" id="pets" name="pets" value="Axolotl">Axolotl<br>
+    <input type="checkbox" id="pets" name="pets" value="Other">Other<br><br>
+
+    <label for="Vehicle">Vehicle:</label>
+    <select name="vehicle"> 
+        <option value="Batmobile1966">Batmobile 1966</option>
+        <option value="Batmobile1989">Batmobile 1989</option>
+        <option value="Batmobile1992">Batmobile BTAS (1992)</option>
+        <option value="Batmobile1995">Batmobile 1995</option>
+        <option value="Batmobile1997">Batmobile 1997</option>
+        <option value="Batmobile2022">Batmobile 2022</option>
+        <option value="legoBatmobile">LEGO Batmobile</option>
+    </select>
+
+<br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset">
+
+</form>
+<br>
+<a href="index.html">Go Back</a>
+</body>
+</html>

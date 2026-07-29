@@ -1,0 +1,43 @@
+/* Selector {
+    property: value;
+} */
+
+* {
+    text-align: right;
+}
+body {
+    background-color: #AA6F39;
+}
+
+h2, p {
+    color: #004E0E;
+    text-align: center;
+    border: 2px solid #442100;
+    cursor: pointer;
+}
+
+/* p {
+    color: #442100;
+} */
+
+li {
+    color: #2B823A;
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 2px dashed #442100;
+}
+
+.active {
+    color: black; 
+}
+
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+    background: rgba(255,0,0,0.2);
+}
