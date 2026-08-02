@@ -1,0 +1,17 @@
+print("Hello World\n"*4, "I love Python\n"*4)
+
+month = int(input("Enter month: "))
+
+Spring = (3, 4, 5)
+Summer = (6, 7, 8)
+Autumn = (9, 10, 11)
+Winter = (12, 1, 2)
+
+if month in Spring: 
+    print("Spring")
+elif month in Summer: 
+    print("Summer")
+elif month in Autumn: 
+    print("Autumn")
+elif month in Winter: 
+    print("Winter")
