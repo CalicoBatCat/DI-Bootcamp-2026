@@ -1,4 +1,4 @@
-# Exercise 2 Dogs Domesticated
+# Exercise 3 Dogs Domesticated
 
 import random
 from exercisesXP_W2D2 import Dog
